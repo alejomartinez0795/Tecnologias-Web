@@ -10,36 +10,103 @@
 
 <header>
     <h1>Tecnologías Web Modernas</h1>
-    <p>Aplicaciones orientadas a la web y servicios de hosting</p>
+    <p>
+        Aplicaciones orientadas a la web, arquitectura moderna y servicios de hosting
+    </p>
 </header>
 
 <section class="contenedor">
 
-    <div class="card">
+    <div class="card" onclick="toggleInfo(this)">
         <h2>Frontend</h2>
-        <p>React, Angular y Vue permiten crear interfaces modernas e interactivas.</p>
+        <p>
+            React, Angular y Vue permiten crear interfaces modernas e interactivas.
+        </p>
+
+        <div class="extra-info">
+            <p>
+                El frontend es la capa visual de una aplicación web. Frameworks como
+                React permiten construir interfaces dinámicas, reutilizables y
+                optimizadas para experiencia de usuario.
+            </p>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Angular</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="card">
+    <div class="card" onclick="toggleInfo(this)">
         <h2>Backend</h2>
-        <p>Node.js, Java y Python gestionan la lógica y datos de las aplicaciones.</p>
+        <p>
+            Node.js, Java y Python gestionan la lógica y datos de las aplicaciones.
+        </p>
+
+        <div class="extra-info">
+            <p>
+                El backend procesa información, autentica usuarios y administra bases
+                de datos mediante APIs y servicios empresariales.
+            </p>
+
+            <ul>
+                <li>Node.js</li>
+                <li>Spring Boot</li>
+                <li>Python</li>
+                <li>APIs REST</li>
+                <li>Microservicios</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="card">
+    <div class="card" onclick="toggleInfo(this)">
         <h2>Cloud Hosting</h2>
-        <p>Servicios como Vercel y Cloudflare permiten desplegar aplicaciones globalmente.</p>
+        <p>
+            Servicios cloud permiten desplegar aplicaciones globalmente.
+        </p>
+
+        <div class="extra-info">
+            <p>
+                El cloud hosting facilita escalabilidad, disponibilidad y acceso desde
+                cualquier parte del mundo mediante infraestructuras distribuidas.
+            </p>
+
+            <ul>
+                <li>Vercel</li>
+                <li>Cloudflare</li>
+                <li>AWS</li>
+                <li>CDN Global</li>
+                <li>Serverless</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="card">
+    <div class="card" onclick="toggleInfo(this)">
         <h2>DevOps</h2>
-        <p>CI/CD automatiza el despliegue y mantenimiento de aplicaciones web.</p>
+        <p>
+            CI/CD automatiza el despliegue y mantenimiento de aplicaciones web.
+        </p>
+
+        <div class="extra-info">
+            <p>
+                DevOps integra desarrollo y operaciones para automatizar pruebas,
+                despliegues y monitoreo continuo de software.
+            </p>
+
+            <ul>
+                <li>GitHub Actions</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>CI/CD</li>
+                <li>Automatización</li>
+            </ul>
+        </div>
     </div>
 
 </section>
-
-<button onclick="mostrarMensaje()">
-    Ver información
-</button>
 
 <script src="script.js"></script>
 
